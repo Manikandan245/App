@@ -1,0 +1,56 @@
+signup url and input with post method
+
+http://localhost:8080/signup
+
+{
+  "username": "gobi",
+  "mobileNum": "9842390095",
+  "standard": "5th"
+}
+
+
+
+login url and input with post method
+
+http://localhost:8080/login
+
+{
+  "username": "gobi",
+  "password": "1234"
+}
+
+
+
+
+DashBoard url with get method
+
+http://localhost:8080/api/dashboard/gobi
+
+
+
+
+Get Questions with Subject And id - Get method
+
+http://localhost:8080/api/questions/14/Maths
+
+
+
+
+Answer the Questions with Post method
+
+http://localhost:8080/api/questions/answer
+
+form data
+
+username : kadesh
+questionId : 12
+userAnswer : 15
+
+
+View the total Score with Get Method
+
+http://localhost:8080/api/questions/score?username=kadesh
+
+
+
+
